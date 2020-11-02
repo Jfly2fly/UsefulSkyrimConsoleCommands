@@ -1,0 +1,45 @@
+***************************Please Save or ATLEAST quicksave before OVERLY MODIFYING values. JUST IN CASE**********************************************
+**********************************Feel Free To Edit/Modify and Share.... Compiled by JFLY2FLY*********************************************************
+======================================================Skyrim Console Commands=========================================================================
+
+=========================================================TABLE OF CONTENTS============================================================================
+I.Base Commands - commands that are a core change to the game
+II.Sub Commands - commands that are sometimes essential for Base Commands(refer to I.)
+======================================================================================================================================================
+I. BASE COMMANDS	(note that "*,-=#" is not enterned into console commands)		Personal Notes
+======================================================================================================================================================
+tfc {1=freeze time;0= regular time} - toggle freecam------------------------------(Useful for screenshots! and exploration?)
+sucsm {#VALUE} - change freecam speed; -=slow +=fast------------------------------(Be careful about modifying this too high, can/will crash your game)
+sgtm {1=default}  - set game time; -=slow +=fast----------------------------------(can modify to slow/speedup time)
+tgm {1=on;0=off}- toggle godmode - unlimited M/H/S--------------------------------(tim=limited) M=Magika;H=Health;S=Stamina
+tim {1=on;0=off}- toggle immortality - limited M/H/S, no death--------------------(tgm=unlimited) M=Magika;H=Health;S=Stamina
+tcl {1=on;0=off}- toggle collision------------------------------------------------(useful for bugs/exploits/non-modded flight?LOL)
+psb {1=on;0=off}- learn all spells------------------------------------------------(Wanna know everything? Here ya go. Be careful about developer spells)
+tmm {1=on,0=off}- toggle map markers----------------------------------------------(for marked but no fast travel = *tmm 1*>*tmm 0*)
+unlock - unlocks shit-------------------------------------------------------------(whatever you click on when ~CC is open)
+saq {1=on,0=off}- start all quests------------------------------------------------(Can crash your game)
+sqo {1=on;0=off}- show quest objectives-------------------------------------------(Can crash your game)
+sqt {1=on;0=off}- show all quest targets------------------------------------------(Can crash your game)
+tdetect {1=on;0=off}- toggle detect-----------------------------------------------(toggles NPC ability to detect you while stealing, DOESN'T work on pickpocketing)
+tai {1=on;0=off}- toggle ai-------------------------------------------------------(toggles NPC AI, basically stops them in place)
+tcai {1=on;0=off}- toggle combat ai-----------------------------------------------(toggles NPC Combat AI, makes them not attack even if hit/injured)
+sexchange- changes your character to male/female----------------------------------(WOH BRO!!! It's 2020, you can be whatever gender you want...)
+tc - TAKE CONTROL-----------------------------------------------------------------(Take control of a NPC, can sometimes be buggy)
+kill - kills targeted NPC---------------------------------------------------------(KILL ONE AT A TIME! WAHAHAHAHHAAHAHAHAHAHA!)
+killall - kills all NPCs in a loaded area-----------------------------------------(KILL UM ALL WITHIN AN AREA! WAHAHAHAHHAAHAHAHAHAHA!)
+ressurect {1=keep;0=trash} - ressurects targeted NPC----------------------------------(add value of 1 to keep items on body)
+showracemenu - edit character-----------------------------------------------------(SAVE BEFORE USING, PRONE TO BUGS/GLITCHES) 
+player.{*Sub Command*}------------------------------------------------------------(Base command for modifying the player) 		*-SUB COMMANDS BELOW-*
+======================================================================================================================================================	
+II. SUB COMMANDS	(note that "*,-=#" is not enterned into console commands)		More Notes
+======================================================================================================================================================	
+	additem {ITEM ID# AMOUNT)------------------------(f=gold;a=lockpicks; any amount you want of item)     	*add 100k gold example = *player.additem f 100000*
+	addspell {SPELL ID#}-----------------------------(lookup spell ID yourself incase of mods) 		*always 8 digits for IDs XXXXXXXX*
+	addshout {SHOUT ID#}-----------------------------(lookup shout ID yourself incase of mods)
+	addperk {PERK ID#}-------------------------------(lookup perk ID yourself incase of mods)
+	advlevel {#VALUE}--------------------------------(adds a # of lvls with NO perk points)
+	setlevel {#VALUE}--------------------------------(sets a lvl)
+	advskill {SKILL ID#}-----------------------------(lookup skill ID yourself incase of mods)
+	setscale {#Value}--------------------------------(can set 0.1-10 be careful about increasing too high or low for crashes)
+	reset{*health/stamina/magicka}-------------------(resets value to max) 					*example = *player.resethealth*
+	placeatme {ITEM ID#/NPC ID#}---------------------(can choose item OR npc ID, lookup IDs yourself incase of mods)
